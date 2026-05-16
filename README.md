@@ -16,3 +16,5 @@ View organized rental records and transactions
 Update car availability automatically
 Simple and user-friendly command-line interface
 Modular Python structure for better organization
+
+https://youtu.be/kFR90E2tp1w?si=HRxgI7_qxHwuWLC4
