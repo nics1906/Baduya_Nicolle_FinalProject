@@ -1,20 +1,66 @@
+# Project Overview
+
+This Python Application serves as a complete Car Rental Management System. I prefer the system to be organized, reliable, and easy to use for managing cars and rental transactions. This CLI-based application follows a modular design and Object-Oriented Programming (OOP) principles with clean separation of data, logic, and user interface.
+
+Users can easily add unlimited cars, rent available vehicles, return rented cars, view all rental records, and keep all data safe. The system automatically saves all data to a JSON file and never crashes due to invalid input.
+
+# KEY FEATURES OF THE CLI-based Car Rental Management System
+
+* Add new cars
+* View all cars with availability status
+* Rent available cars
+* Return rented cars
+* View all rental records
+* Auto-calculate rental fees
+* Data persistence: Auto-save / auto-load from JSON
+* Full error handling (never crashes on invalid input)
+
+# Error Handling
+
+Built-in protection ensures the app never crashes:
+
+* Empty input → Clear message
+* Duplicate car IDs / plate numbers → Blocked
+* Invalid menu choices → Guided correction
+* Corrupted/missing JSON → Auto-reset safely
+* Wrong data type → Rejected with instruction
+
+# Advanced Python Concepts Used
+
+1. List Comprehension – Filter/search data in one line
+2. Context Manager – Safe file handling using `with open()`
+3. @classmethod – Create objects from saved JSON
+4. Magic/Dunder Methods – `__str__`, `__eq__` for clean object behavior
+5. Type Hints – Clear data types for readability & error prevention
+6. Error Handling (`try...except`) – Handles missing files, corrupted data, invalid input
+
+# Installation & How to Run
+
+## 1. Requirements
+
+* Python 3.7 or higher
+* No external packages needed (uses only built-in modules)
+
+## 2. Run the App
+
+* Open terminal / command prompt
+* Navigate to the project folder
+
+## 3. System Functions
+
+* Add Car: Register new rental vehicles
+* View Cars: See all cars and their availability
+* Rent Car: Rent available vehicles to customers
+* Return Car: Return rented vehicles and update status
+* View Rentals: Check all rental transactions
+* Save & Exit: Saves everything automatically
+
+# Author
+
+STUDENT: NICOLLE B. BADUYA
+Section: BSCS 1B
+Instructor: ALLAN IBO JR.
+Course: INTERMEDIATE PROGRAMMING (Final Project)
+
+FINAL PROJECT
 Car Rental Management System
-
-This Python application manages and organizes car rental operations, rental records, customer transactions, and vehicle availability for a car rental business. The system helps keep rental information organized, accurate, and easy to access.
-
-Users can easily add cars, rent vehicles, return rented cars, and monitor rental records using a simple Command-Line Interface (CLI). The program stores data using JSON files to maintain records even after the application is closed.
-
-KEY FEATURES OF THE CLI-based Car Rental Management System
-Add new car records to the system
-View all available and rented vehicles
-Rent cars to customers
-Return rented vehicles and update availability
-Search cars by brand, model, or rental status
-Track rental history and customer records
-Save and load data using JSON files
-View organized rental records and transactions
-Update car availability automatically
-Simple and user-friendly command-line interface
-Modular Python structure for better organization
-
-https://youtu.be/kFR90E2tp1w?si=HRxgI7_qxHwuWLC4
